@@ -1,0 +1,231 @@
+[[categories]]
+  name = "2034"
+  description = ""
+
+[[categories.subcategories]]
+  name = "Expert Discovery Demand"
+  description = ""
+  format = "D {defandant name} 2034 Demand ({date of exchange})"
+  examples = ["D John 2034 Demand (23.12.25)"]
+
+[[categories.subcategories]]
+  name = "Expert Discovery Exchange"
+  description = ""
+  format = "D {defandant name}2034 Exchange ({date of exchange})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Expert Discovery Designation"
+  description = ""
+  format = "D 2034 Designation ({date of exchange MM.DD.YY})"
+  examples = [""]
+
+
+[[categories]]
+  name = "CORR"
+  description = ""
+
+[[categories.subcategories]]
+  name = "Correspondence received by CZ"
+  description = ""
+  format = "Ltr from D Atty re {brief summary what letter is about (less than 10 words)} {date of letter}"
+  examples = [
+    "Ltr from D John Re Depos 01.02.2020",
+    "Ltr from D Macys Re Statement of P 03.05.2020",
+    "Ltr from State Farm Re Offer ($1,500) 02.06.2021",
+  ]
+
+[[categories.subcategories]]
+  name = "M&C Correspondence received by CZ"
+  description = ""
+  format = "M&C Ltr from D Atty Re {brief summary what letter is about (less than 10 words)} {date of letter}"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Auth to demand"
+  description = ""
+  format = "P {Plantiff name} Auth to Demand (${dollar amount of demand})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Rejected Settlement Offer"
+  description = ""
+  format = "P {Plaintiff name} (REJECT) Offer (${dollar amount of settlement}) \"{date signed}\""
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Accepted Settlement Offer"
+  description = ""
+  format = "P {Plaintiff name} (ACCEPT) Offer (${dollar amount of settlement}) \"{date signed}\""
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Deposition Acknowledgment"
+  description = ""
+  format = "P {Plaintiff name} Acknowledgment Depo and Depo Prep ({date of deposition})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Trial Acknowledgment"
+  description = ""
+  format = "P {Plaintiff name} Acknowledgment Trial ({date of trial})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Meditation Acknowledgment"
+  description = ""
+  format = "P {Plaintiff name} Acknowledgment Medtiaion ({date of trial})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ DME Acknowledgment"
+  description = ""
+  format = "P {Plaintiff name} Acknowledgment DME ({date of trial})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Site Inspection Acknowledgment"
+  description = ""
+  format = "P {Plaintiff name} Acknowledgment Site Inspection ({date of trial})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Misc Correspondence received by CZ Past Litigation history"
+  description = ""
+  format = "P {Plaintiff name} Past Litigation History"
+  examples = [""]
+
+[[categories]]
+  name = "DEPONOTE"
+  description = ""
+
+[[categories.subcategories]]
+  name = "Depo Notices Received by CZ"
+  description = ""
+  format = "D {Defendant name} Ntc Depo {Deponent name} ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Depo & RFP Notices Received by CZ"
+  description = ""
+  format = "D {Defendant name} Ntc Depo & RFP {Deponent name} ({Depo date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Continued Depo Notices Received by CZ"
+  description = ""
+  format = "D {Defendant name} Cont Ntc Depo & RFP {Deponent name} ({Depo date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Continued Depo & RFP Notices Received by CZ"
+  description = ""
+  format = "D {Defendant name} Cont Ntc Depo & RFP {Deponent name} ({Depo date})"
+  examples = [""]
+
+
+[[categories.subcategories]]
+  name = "Amended Depo Notices Received by CZ"
+  description = ""
+  format = "D {Defendant name} Amended Ntc Depo {Deponent name} ({Depo date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Amended Depo & RFP Notices Received by CZ"
+  description = ""
+  format = "D {Defendant name} Amended Ntc Depo & RFP {Deponent name} ({Depo date})"
+  examples = [""]
+
+# Sometimes the letters use response instead of objection
+[[categories.subcategories]]
+  name = "Depo Objections"
+  description = ""
+  format = "D {Defandant name} Obj to Ntc Depo {Deponent name} ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Person most qualified Depo Objections"
+  description = ""
+  format = "D {Defandant name} Obj to Ntc Depo PMQ ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Person most Knowledgable Depo Objections"
+  description = ""
+  format = "D {Defandant name} Obj to Ntc Depo PMK ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Depo & RFP Objections"
+  description = ""
+  format = "D {Defandant name} Obj to Ntc Depo & RFP {Deponent name} ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Person most qualified Depo & RFP Objections"
+  description = ""
+  format = "D {Defandant name} Obj to Ntc Depo PMQ ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Person most Knowledgable Depo & RFP Objections"
+  description = ""
+  format = "D {Defandant name} Obj to Ntc Depo PMK ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "RFP @ Depo Responses Received by CZ"
+  description = ""
+  format = "D {Defandant name} Resp RFP @ Depo ({Depo Date})"
+  examples = [""]
+
+
+[[categories]]
+  name = "DEPOTRANS"
+  description = ""
+
+[[categories.subcategories]]
+  name = "Deposition Transcripts"
+  description = ""
+  format = "Depo Trans {Deponent Name} ({Depo Date})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Condensed Deposition Transcripts"
+  description = ""
+  format = "Depo Trans {Deponent Name} ({Depo Date}) -Cond"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Errata Sheets deponents"
+  description = ""
+  format = "D {Deponent Name} Errata ({Depo Date})"
+  examples = [""]
+
+[[categories.subcategories]]
+  name = "Errata Sheets plaintiffs"
+  description = ""
+  format = "P {Plaintiff Name} Errata ({Depo Date})"
+  examples = [""]
+
+# TODO: the rest of it
+[[categories]]
+  name = "DISCDEF"
+  description = ""
+
+[[categories.subcategories]]
+  name = ""
+  description = ""
+  format = ""
+  examples = []
+
+
+[[categories]]
+  name = "DISCPL"
+  description = ""
+
+[[categories.subcategories]]
+  name = "Discovery propounded by Defendant on Plaintiff"
+  description = ""
+  format = ""
+  examples = []
