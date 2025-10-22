@@ -208,15 +208,117 @@
   format = "P {Plaintiff Name} Errata ({Depo Date})"
   examples = [""]
 
-# TODO: the rest of it
+
 [[categories]]
   name = "DISCDEF"
   description = ""
 
 [[categories.subcategories]]
-  name = ""
+  name = "Form Interrogatories"
   description = ""
-  format = ""
+  format = "D {Defendant name} {Resp|Obj|Resp and Obj} to FROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Form Interrogatories"
+  description = ""
+  format = "D {Defendant name} SUPP {Resp|Obj|Resp and Obj} to FROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Amended Form Interrogatories"
+  description = ""
+  format = "D {Defendant name} Amended  {Resp|Obj|Resp and Obj} to FROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Further Form Interrogatories"
+  description = ""
+  format = "D {Defendant name} Further {Resp|Obj|Resp and Obj} to FROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Special Interrogatories"
+  description = ""
+  format = "D {Defendant name} {Resp|Obj|Resp and Obj} to SPROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Special Interrogatories"
+  description = ""
+  format = "D {Defendant name} SUPP {Resp|Obj|Resp and Obj} to SPROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Amended Special Interrogatories"
+  description = ""
+  format = "D {Defendant name} Amended {Resp|Obj|Resp and Obj} to SPROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Further Special Interrogatories"
+  description = ""
+  format = "D {Defendant name} Further {Resp|Obj|Resp and Obj} to SPROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Request for Admissions"
+  description = ""
+  format = "D {Defendant name} {Resp|Obj|Resp and Obj} to RFA{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Request for Admissions"
+  description = ""
+  format = "D {Defendant name} SUPP {Resp|Obj|Resp and Obj} to RFA{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Amended Request for Admissions"
+  description = ""
+  format = "D {Defendant name} Amended {Resp|Obj|Resp and Obj} to RFA{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Further Request for Admissions"
+  description = ""
+  format = "D {Defendant name} Further {Resp|Obj|Resp and Obj} to RFA{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Request for Production of Documents"
+  description = ""
+  format = "D {Defendant name} {Resp|Obj|Resp and Obj} to RFP{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Request for Production of Documents"
+  description = ""
+  format = "D {Defendant name} SUPP {Resp|Obj|Resp and Obj} to RFP{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Amended Request for Production of Documents"
+  description = ""
+  format = "D {Defendant name} Amended {Resp|Obj|Resp and Obj} to RFP{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Further Request for Production of Documents"
+  description = ""
+  format = "D {Defendant name} Further {Resp|Obj|Resp and Obj} to RFP{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Interrogatories"
+  description = ""
+  format = "D {Defendant name} {Resp|Obj|Resp and Obj} to SUPP ROGS{set number} P {Plantiff name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Request for Production of Documents"
+  description = ""
+  format = "D {Defendant name} {Resp|Obj|Resp and Obj} to SUPP RFP{set number} P {Plantiff name}"
   examples = []
 
 
