@@ -26,17 +26,44 @@
   description = ""
 
 [[categories.subcategories]]
-  name = "Correspondence received by CZ"
+  name = "Correspondence received by CZ from org"
+  description = ""
+  format = "Ltr from {Organization} re {brief summary what letter is about (less than 10 words)} {date of letter}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Correspondence received by CZ from Client"
+  description = ""
+  format = "Ltr from {Client name} re {brief summary what letter is about (less than 10 words)} {date of letter}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Correspondence received by CZ from individual"
+  description = ""
+  format = "Ltr from {Sender Name} re {brief summary what letter is about (less than 10 words)} {date of letter}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Correspondence received by CZ from defence attorney"
   description = ""
   format = "Ltr from D Atty re {brief summary what letter is about (less than 10 words)} {date of letter}"
   examples = [
-    "Ltr from D John Re Depos 01.02.2020",
-    "Ltr from D Macys Re Statement of P 03.05.2020",
-    "Ltr from State Farm Re Offer ($1,500) 02.06.2021",
+    "Ltr from D atty Re Depos 01.02.2020",
+    "Ltr from D atty Re Statement of P 03.05.2020",
+    "Ltr from D atty Re Offer ($1,500) 02.06.2021",
+  ]
+[[categories.subcategories]]
+  name = "Correspondence received by CZ from"
+  description = ""
+  format = "Ltr from {Insurance company name} re {brief summary what letter is about (less than 10 words)} {date of letter}"
+  examples = [
+    "Ltr from D atty Re Depos 01.02.2020",
+    "Ltr from D atty Re Statement of P 03.05.2020",
+    "Ltr from D atty Re Offer ($1,500) 02.06.2021",
   ]
 
 [[categories.subcategories]]
-  name = "M&C Correspondence received by CZ"
+  name = "Meet and Confer Correspondence received by CZ"
   description = ""
   format = "M&C Ltr from D Atty Re {brief summary what letter is about (less than 10 words)} {date of letter}"
   examples = [""]
@@ -174,7 +201,7 @@
   examples = [""]
 
 [[categories.subcategories]]
-  name = "RFP @ Depo Responses Received by CZ"
+  name = "Request For Production at Deposition Responses Received by CZ"
   description = ""
   format = "D {Defandant name} Resp RFP @ Depo ({Depo Date})"
   examples = [""]
@@ -324,10 +351,128 @@
 
 [[categories]]
   name = "DISCPL"
+  description = "Discovery propounded by Defendant on Plaintiff"
+
+[[categories.subcategories]]
+  name = "Form Interogattories"
+  description = ""
+  format = "D {Defendant name} FROGS{set number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Form Interogattories with more than one plaintiff"
+  description = ""
+  format = "D {Defendant name} FROGS{set number} to P {Plaintiff Name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Special Interogattories"
+  description = ""
+  format = "D {Defendant name} SPROGS{set number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Form Interogattories with more than one plaintiff"
+  description = ""
+  format = "D {Defendant name} SPROGS{set number} to P {Plaintiff Name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Request for production of documents"
+  description = ""
+  format = "D {Defendant name} RFP{set number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Request for production of ducments with more than one plaintiff"
+  description = ""
+  format = "D {Defendant name} RFP{set number} to P {Plaintiff Name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Request for Admissions"
+  description = ""
+  format = "D {Defendant name} RFA{set number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Request for Admissions with more than one plaintiff"
+  description = ""
+  format = "D {Defendant name} RFA{set number} to P {Plaintiff Name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Interogatories"
+  description = ""
+  format = "D {Defendant name} SUPP ROGS{set number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Interogatories with more than one plaintiff"
+  description = ""
+  format = "D {Defendant name} SUPP ROGS{set number} to P {Plaintiff Name}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Request for Production of Documents"
+  description = ""
+  format = "D {Defendant name} SUPP RFP{set number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Supplemental Request for Production of Documents"
+  description = ""
+  format = "D {Defendant name} SUPP RFP{set number} to P {Plaintiff Name}"
+  examples = []
+
+
+[[categories]]
+  name = "EXPERTS"
   description = ""
 
 [[categories.subcategories]]
-  name = "Discovery propounded by Defendant on Plaintiff"
+  name = "Defense Medical Exam Reports"
   description = ""
-  format = ""
+  format = "{Name of doctor}, {doctor title} DME Report ({Date of exam})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Independant Medical Exam Reports"
+  description = ""
+  format = "{Name of doctor}, {doctor title} IME Report ({Date of exam})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Defense Medical Exam Nurse Observer Reports"
+  description = ""
+  format = "Nurse Observer DME Report ({Date of exam})"
+  examples = []
+
+
+[[categories]]
+  name = "MEDREC"
+  description = ""
+
+[[categories.subcategories]]
+  name = "Medicals Records/Reports Single date of service"
+  description = "{Date of serivce} Report ({name of facility})"
+  format = "{}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Medicals Records/Reports Multiple dates of service"
+  description = "{start Date of serivce} - {end Date of serivice} Report ({name of facility})"
+  format = "{}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Medical Bills single date of service"
+  description = "{Date of serivce} Bill ({name of facility})"
+  format = "{}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Medical Bills multiple dates of service"
+  description = "{Date of serivce}  - {end Date of serivice} Bill ({name of facility})"
+  format = "{}"
   examples = []
