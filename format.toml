@@ -52,15 +52,6 @@
     "Ltr from D atty Re Statement of P 03.05.2020",
     "Ltr from D atty Re Offer ($1,500) 02.06.2021",
   ]
-[[categories.subcategories]]
-  name = "Correspondence received by CZ from"
-  description = ""
-  format = "Ltr from {Insurance company name} re {brief summary what letter is about (less than 10 words)} {date of letter}"
-  examples = [
-    "Ltr from D atty Re Depos 01.02.2020",
-    "Ltr from D atty Re Statement of P 03.05.2020",
-    "Ltr from D atty Re Offer ($1,500) 02.06.2021",
-  ]
 
 [[categories.subcategories]]
   name = "Meet and Confer Correspondence received by CZ"
@@ -455,8 +446,8 @@
 
 [[categories.subcategories]]
   name = "Medicals Records/Reports Single date of service"
-  description = "{Date of serivce} Report ({name of facility})"
-  format = "{}"
+  description = "{}"
+  format = "{Date of serivce} Report ({name of facility})"
   examples = []
 
 [[categories.subcategories]]
@@ -475,4 +466,162 @@
   name = "Medical Bills multiple dates of service"
   description = "{Date of serivce}  - {end Date of serivice} Bill ({name of facility})"
   format = "{}"
+  examples = []
+
+  # sub cat sub cat
+  # reply
+  # opp
+
+[[categories]]
+  name = "MOT"
+  description = "Discovery propounded by Defendant on Plaintiff"
+
+[[categories.subcategories]]
+  name = "Ex Parte"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ex Parte re {Subject of parte} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to compel Deposition"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTC Deposition ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to compel Responses to form interogatorries"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTC Resp FROGS ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to compel Responses to special interogatorries"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTC Resp SPROGS ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to compel Responses to request for admissions"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTC Resp RFA ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to compel Responses to request for production of documents"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTC Resp RFP ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to compel defense medical exam"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTC DME ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to Quash Subpoena"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTQ Subpoena ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to Quash Service of Summons"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTQ Service of Summons ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to Strike"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MTS {What is being stricken around 2-4 words} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to Summary Judgement"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc MSJ ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to Demurrer"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Demurrer ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to set aside default"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Mx to Set Aside Default ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to be relieved as counsel"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Mx to be Relieved ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion for Protective Order"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Mx for Protective Order ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion for leave"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Mx for Leave to {reason for leave 1-4 words} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion to continue trial"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Mx to Cont Trial ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion for determination of good faith settlement"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Mx for Determination of GFS ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Motion for terminating sanctions"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Ntc Mx for Terminating Sanctions ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Memo of points and authorities"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Memo of Points and Auths re {type of motion abbrev following guide} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Declaration of Attorney"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Dec of {author of declaration} re {type of motion abbrev following guide} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Reply in support of motion"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Reply ISO {type of motion abbrev following guide} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Reply to Opposition of motion"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Reply to Opp to {type of motion abbrev following guide} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Propsed order of motion"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Proposed Order re {type of motion abbrev following guide} ({Date of motion})"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Opposition of motion"
+  description = ""
+  format = "D {Defendant name's in a list like John, Mitch & Jeff} Opp to {type of motion abbrev following guide} ({Date of motion})"
   examples = []
