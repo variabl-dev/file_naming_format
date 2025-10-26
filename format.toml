@@ -446,26 +446,26 @@
 
 [[categories.subcategories]]
   name = "Medicals Records/Reports Single date of service"
-  description = "{}"
+  description = ""
   format = "{Date of serivce} Report ({name of facility})"
   examples = []
 
 [[categories.subcategories]]
   name = "Medicals Records/Reports Multiple dates of service"
-  description = "{start Date of serivce} - {end Date of serivice} Report ({name of facility})"
-  format = "{}"
+  description = "{}"
+  format = "{start Date of serivce} - {end Date of serivice} Report ({name of facility})"
   examples = []
 
 [[categories.subcategories]]
   name = "Medical Bills single date of service"
-  description = "{Date of serivce} Bill ({name of facility})"
-  format = "{}"
+  description = ""
+  format = "{Date of serivce} Bill ({name of facility})"
   examples = []
 
 [[categories.subcategories]]
   name = "Medical Bills multiple dates of service"
   description = "{Date of serivce}  - {end Date of serivice} Bill ({name of facility})"
-  format = "{}"
+  format = ""
   examples = []
 
   # sub cat sub cat
