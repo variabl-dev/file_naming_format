@@ -926,3 +926,25 @@
   description = "Any pleading that doesn't match any of the previous pleadings"
   format = "{try your best following a similar structure in the guide so far}"
   examples = []
+
+[[categories]]
+  name = "SUPREC"
+  description = ""
+
+[[categories.subcategories]]
+  name = "Subpoenas FOR Records with one facility/location"
+  description = ""
+  format = "{Name of company issuing subpeonas} Subs for Recs From {name of facility/location} - #{subpeona order number/work order number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "subpeonas FOR Records with multiple facilities/locations"
+  description = ""
+  format = "{Name of company issuing subpeonas} Subs for Recs From Multiple Facilities - #{subpeona order number/work order number}"
+  examples = []
+
+[[categories.subcategories]]
+  name = "Subpoenaed Records"
+  description = ""
+  format = "{Facility/location name} - #{subpeona order number/work order number}"
+  examples = []
